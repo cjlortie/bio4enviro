@@ -1,0 +1,39 @@
+---
+title: ""
+output: html_document
+---
+<br>
+
+###Biology for Environmental Management    
+![](./hogwarts.jpg)  
+<br>
+**bio4enviro**  
+*finding the magic spells in science for the environment*  
+
+Please tweet all discoveries because to **@cjlortie #bio4enviro** so that we can explore if the ideas we tackle in this course resonate with other environmental scientists.    
+
+**Outline**    
+[Course outline pdf](https://github.com/cjlortie/rstats4bio/blob/master/BIOL4265-2018.pdf)  
+
+**General overview**  
+The first two sets of 3 weeks will examine environmental management challenge cases **emc2** every Monday via flipped lecture and reverse-engineered reproducible solutions & tools **rest** every Wednesday.  
+
+sept 5 intro to class  
+sept 10 & 12	pollinator declines & citizen science    
+Sept 17 & 19	climate change & open science code  
+Sept 24 & 26	invasive species & team science    
+Oct 1 & 3	take-home test  
+Oct 15 & 17	land use challenges & systematic reviews    
+Oct 22 & 24	coastal habitat functioning & meta-analyses    
+Oct 29 & 31	ocean health & mapping    
+Nov 5 & 7	take-home test  
+Nov 12 & 14	group meta-analyses  
+Nov 19 & 21	group meta-analyses  
+Nov 26 & 28	group poster session: class only  
+
+**Evaluation**  
+Test 1. 40%  
+Test 2. 40%  
+Poster. 20%  
+
+

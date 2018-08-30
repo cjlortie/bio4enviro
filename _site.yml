@@ -1,0 +1,22 @@
+name: "bio4enviro"
+navbar:
+  title: "bio4enviro"
+  left:
+    - text: "home"
+      href: index.html
+    - text: "schedule"
+      href: schedule.html
+    - text: "emc2"
+      href: emc2.html
+    - text: "rers"
+      href: rers.html
+    - text: "tests"
+      href: tests.html
+    - text: "poster"
+      href: poster.html
+    
+      
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
