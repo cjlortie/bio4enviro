@@ -13,7 +13,7 @@ output: html_document
 Please tweet all discoveries because to **@cjlortie #bio4enviro** so that we can explore if the ideas we tackle in this course resonate with other environmental scientists.    
 
 **Outline**    
-[Course outline pdf](https://github.com/cjlortie/rstats4bio/blob/master/BIOL4265-2018.pdf)  
+[Course outline pdf](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265-2018.pdf)  
 
 **General overview**  
 The first two sets of 3 weeks will examine environmental management challenge cases **emc2** every Monday via flipped lecture and reverse-engineered reproducible solutions & tools **rest** every Wednesday.  
