@@ -5,8 +5,6 @@ output: html_document
 <br>
 
 ###Biology for Environmental Management    
-![](./hogwarts.jpg)  
-<br>
 **bio4enviro**  
 *finding the magic spells in science for the environment*  
 
@@ -52,6 +50,9 @@ Key: bio4enviro
 Please see course pdf outline for full details.  
 The [Document Submission System](https://science.apps01.yorku.ca/machform/view.php?id=84113) must be used to submit all documentation associated with absences.
 
+<br>
+![](./hogwarts.jpg)  
+<br>
 
 
 

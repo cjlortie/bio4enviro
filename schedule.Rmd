@@ -6,7 +6,6 @@ output: html_document
 
 ###Schedule  
 
-![](./schedule.jpg)  
 <br>
 
 ```{r, warning=FALSE, message=FALSE, echo=FALSE}
@@ -16,3 +15,7 @@ schedule <- read_csv("schedule.csv")
 knitr::kable(schedule)
 
 ```
+
+<br>
+![](./schedule.jpg)  
+<br>
