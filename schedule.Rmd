@@ -4,4 +4,11 @@ output: html_document
 ---
 <br>
 
-###Schedule      
+###Schedule  
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(knitr)
+schedule <- read_csv("schedule.csv")
+knitr::kable(schedule)
+
+```
