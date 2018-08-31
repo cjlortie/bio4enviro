@@ -5,6 +5,10 @@ output: html_document
 <br>
 
 ###Schedule  
+
+![](./schedule.jpg)  
+<br>
+
 ```{r, warning=FALSE, message=FALSE, echo=FALSE}
 library(tidyverse)
 library(knitr)
