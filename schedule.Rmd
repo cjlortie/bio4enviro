@@ -17,5 +17,5 @@ knitr::kable(schedule)
 ```
 
 <br>
-![](./schedule.jpg)  
+![](./hogwarts_castle.jpg)  
 <br>
