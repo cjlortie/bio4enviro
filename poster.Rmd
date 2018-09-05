@@ -6,3 +6,15 @@ output: html_document
 
 ###Poster  
 The final third of the course is an opportunity to explore, in depth, an environmental management challenge of their choice, do a meta-analysis, and present in a poster session (learning outcomes 5 & 6).  Meta-analyses are the gold-standard evidence-based decision making tool in most disciplines of science including health, clinical research, environmental science, and ecology and evolution. This is a group endeavour for sets of students with similiar interests to apply the emc2 and rers thinking to a topic of their choice, develop and present and analysis, and share with the class.
+
+**Marking key/rebric total to 20**  
+Clarity of visuals/5    
+Transparent science presented/5  
+Effective scientific synthesis/5    
+Conclusions & implications sufficiently developed/5  
+
+**Guidelines**  
+We will develop clear guidelines together prior to and during final module.
+
+Please include a contribution table on poster using initials of each person listing the work each individual completed as part of the synthesis.  
+
