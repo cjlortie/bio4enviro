@@ -16,6 +16,8 @@ knitr::kable(schedule)
 
 ```
 
+If you need an offline version of the decks, please visit my [profile at speakerdeck](https://speakerdeck.com/cjlortie) and you can download as pdfs.
+
 <br>
 ![](./hogwarts_castle.jpg)  
 <br>
