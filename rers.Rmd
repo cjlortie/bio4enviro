@@ -8,6 +8,12 @@ output: html_document
 
 The rers (reverse-engineered reproducible solutions ) are your chance to find the magic in the science of the challenges we face and be creative.  I am hopeful that we can conceptualize the environmental problems that we collectively face into challenges with solutions. This component of the course addresses the second and fourth learning outcomes proposed - be able to develop solutions and appreciate the balancing act that is environmental management.  The first set of Wednesday lectures are directly associated with the reproducible, generalized solutions that science and people use for the magic of management. However, this is not an exhaustive list, and we can generate additional ideas.  We will read some of the contemporary literature describing new and powerful solutions to address environmental challenges, do better science, and at times provide solutions.  
 
+**Tips**  
+
+1. Look for the most general tool that made the study possible - i.e. without it the study could not be completed.  
+2. Solutions are tools that are active. Tools do things such as provide data, manage an environmental challenge, or inform policy.  
+3. How to research a tool is a great idea - if they do no mention in the paper, use Web of Science or Google Scholar and find other paper on this topic and see if they mention a tool or solution, visit the website of the main or corresponding author of the emc2 paper and see what tools they list on their sites, and finally use Web of Science or Google scholar and explore the topic and see what other people have proposed as the tool or look up tools directly.
+
 <br>
 ![](./spells.jpg)  
 <br>  
