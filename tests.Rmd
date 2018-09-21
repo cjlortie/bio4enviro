@@ -19,6 +19,15 @@ Link to paper will be provided here on test day.
 **Test 2 publication**  
 Link to paper will be provided here on test day.  
 
+**Marking key**  
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(knitr)
+key <- read_csv("key_tests.csv")
+knitr::kable(key)
+
+```
+
 <br>
 ![](./quidditch.png)  
 <br>  
