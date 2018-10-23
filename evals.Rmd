@@ -7,5 +7,33 @@ output: html_document
 ###Evaluations    
 This course has a very specific design to promote active learning. It is an upper-year offering, and the primary goal is to provide you with an opportunity to engage in critical thinking and get practical skills for professional careers including critical reading, analysis of technical work, big-picture thinking, and effective communication. The final goal is to introduce you to the gold-standard of big picture problem-solving in all disciplines - meta-analyses.
 
+**Philosophy for evaluation & design**  
+1. Respect the purpose of the course as designed by Dr. Yan and Dr Sharma and parallel the structure.  
+2. Testing and evaluation by you and by me should lead to improvement.  
+3. Evaluations should give you a chance to solve real problems.  
+4. Evaluations should give you a chance to communicate.  
+5. You should have a chance to practice for tests.  
+6. To learn, you should be given the chance to consolidate your practice - so the second test should be the exact structure as the first to enable improvement.  
+7. Grades should go up as the course progresses because we know how to do the work.  
+8. Grades must be meaningful. This means not everyone should have high grades and not everyone should have low grades, and the evaluation should differentiate between merit of contributions.  
+9. A marking key should be provided.  
+10. Students should have access to all content for review including presentations and should be allowed to do team science to solve problems using this evidence.  
+11. Students should be able to provide feedback and evaluation back to the instructor.  
+12. The instructor should highlight opportunites for improvement.  
+
+
+###Mechanisms for better evals  
+1. Mid-term feedback opportunity for students.  
+2. Next test the same.  
+3. Explain marking key again.  
+4. Do [analyses of evaluations](https://cjlortie.github.io/bio4enviro_grades/).  
+5. I will carefully review student feedback.  
+6. Consider peer-marking a practice for each other.  
+
+###Limitations  
+Anomalous grades when too high are problematic.  
+Too much practice makes challenges less interesting.  
+Unduly detailed marking keys make writing less clear.  
+
 
 
