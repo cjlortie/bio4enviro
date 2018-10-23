@@ -14,6 +14,8 @@ navbar:
       href: tests.html
     - text: "poster"
       href: poster.html
+    - text: "evals"
+      href: evals.html
     
       
 output_dir: "."
