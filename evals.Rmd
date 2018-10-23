@@ -28,7 +28,8 @@ This course has a very specific design to promote active learning. It is an uppe
 3. Explain marking key again.  
 4. Do [analyses of evaluations](https://cjlortie.github.io/bio4enviro_grades/).  
 5. I will carefully review student feedback.  
-6. Consider peer-marking a practice for each other.  
+6. Consider peer-marking a practice for each other.   
+7. Provide students with a chance to communicate clarifications to first test - i.e. in responding to marking, I do better marking next time and students do better writing.
 
 ###Limitations  
 Anomalous grades when too high are problematic.  
