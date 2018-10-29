@@ -9,9 +9,11 @@ output: html_document
 The emc2 & res practice form is the exact same as both tests.  It is the goal of this course to give you the opportunity to practice and then be tested on a novel, similar problem.  Simply reuse the form provide but APPLY to the test papers that will be posted here.
 
 **Test form (same as practice form but complete Q3 in full)**  
-[emc2 & rers practice form as word doc](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265_emc2.docx)  
 
-[emc2 & rers practice form as PDF doc](https://github.com/cjlortie/bio4enviro/blob/master/emc2.pdf)  
+[test form as word doc](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265_emc2.docx)  
+
+[test form as PDF](https://github.com/cjlortie/bio4enviro/blob/master/emc2.pdf)  
+
 
 
 **Test 1 publication:** [Direct and interactive effects of climate, meteorology, river hydrology, and lake characteristics on water quality in productive lakes of the Canadian Prairies](http://www.nrcresearchpress.com/doi/10.1139/cjfas-2016-0520#.W6U4zS-ZMWp)  
