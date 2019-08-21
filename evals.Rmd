@@ -4,7 +4,7 @@ output: html_document
 ---
 <br>
 
-###Evaluations    
+### Evaluations    
 This course has a very specific design to promote active learning. It is an upper-year offering, and the primary goal is to provide you with an opportunity to engage in critical thinking and get practical skills for professional careers including critical reading, analysis of technical work, big-picture thinking, and effective communication. The final goal is to introduce you to the gold-standard of big picture problem-solving in all disciplines - meta-analyses.
 
 **Philosophy for evaluation & design**  
@@ -22,7 +22,7 @@ This course has a very specific design to promote active learning. It is an uppe
 12. The instructor should highlight opportunites for improvement.  
 
 
-###Mechanisms for better evals  
+### Mechanisms for better evals  
 1. Mid-term feedback opportunity for students.  
 2. Next test the same.  
 3. Explain marking key again.  
@@ -31,7 +31,7 @@ This course has a very specific design to promote active learning. It is an uppe
 6. Consider peer-marking a practice for each other.   
 7. Provide students with a chance to communicate clarifications to first test - i.e. in responding to marking, I do better marking next time and students do better writing.
 
-###Limitations  
+### Limitations  
 Anomalous grades when too high are problematic.  
 Too much practice makes challenges less interesting.  
 Unduly detailed marking keys make writing less clear.  
