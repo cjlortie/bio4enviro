@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>index.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -96,6 +94,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +111,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -218,34 +321,35 @@ $(document).ready(function () {
 
 
 <p><br></p>
-<div id="biology-for-environmental-management" class="section level3">
-<h3>Biology for Environmental Management</h3>
-<p><strong>bio4enviro</strong><br />
+<p>###Biology for Environmental Management<br />
+<strong>bio4enviro</strong><br />
 <em>finding the magic spells in science for the environment</em></p>
 <p>Please tweet all discoveries because to <strong><span class="citation">@cjlortie</span> #bio4enviro</strong> so that we can explore if the ideas we tackle in this course resonate with other environmental scientists.</p>
 <p><strong>Outline</strong><br />
-<a href="https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265-2018.pdf">Course outline pdf</a></p>
+<a href="https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265-2019.pdf">Course outline pdf</a></p>
 <p><strong>General overview</strong><br />
-The first two sets of 3 weeks will examine environmental management challenge cases <strong>emc2</strong> every Monday via flipped lecture and reverse-engineered reproducible solutions &amp; tools <strong>rest</strong> every Wednesday.</p>
-<p>sept 5 intro to class<br />
-sept 10 &amp; 12 pollinator declines &amp; citizen science<br />
+The first two sets of 3 weeks will examine environmental management challenge cases <strong>emc2</strong> first class via flipped lecture and reverse-engineered reproducible solutions &amp; tools <strong>rers</strong> second lecture.</p>
+<p>Sept 5 intro to class<br />
+Sept 10 &amp; 12 pollinator declines &amp; citizen science<br />
 Sept 17 &amp; 19 climate change &amp; open science code<br />
 Sept 24 &amp; 26 invasive species &amp; team science<br />
-Oct 1 &amp; 3 take-home test<br />
-Oct 15 &amp; 17 land use challenges &amp; systematic reviews<br />
+Oct 1 &amp; 3 two-part test<br />
+Oct 8 &amp; 10 land use challenges &amp; systematic reviews<br />
+Oct 15 &amp; 17 reading week<br />
 Oct 22 &amp; 24 coastal habitat functioning &amp; meta-analyses<br />
 Oct 29 &amp; 31 ocean health &amp; mapping<br />
-Nov 5 &amp; 7 take-home test<br />
-Nov 12 &amp; 14 group meta-analyses<br />
-Nov 19 &amp; 21 group meta-analyses<br />
-Nov 26 &amp; 28 group poster session: class only</p>
+Nov 5 &amp; 7 two-part test<br />
+Nov 12 &amp; 14 meta-analysis &amp; how to do meta-analyses<br />
+Nov 19 &amp; 21 meta-analyses &amp; how to design a good science poster<br />
+Nov 26 &amp; 28 public poster conference<br />
+Dec 3 Closing discussion on science versus policy, politics, and social media</p>
 <p><strong>Evaluation</strong><br />
 Test 1. 40%<br />
 Test 2. 40%<br />
 Poster. 20%</p>
 <p>Tests and poster must be submitted to turnitin.com.<br />
 Please export all to PDF for submission.<br />
-Class ID: 18939841<br />
+Class ID: 22011142<br />
 Key: bio4enviro</p>
 <p><strong>Learning outcomes</strong><br />
 1. Critically read environmental science peer-reviewed journal publications.<br />
@@ -257,7 +361,6 @@ Key: bio4enviro</p>
 The <a href="https://science.apps01.yorku.ca/machform/view.php?id=84113">Document Submission System</a> must be used to submit all documentation associated with absences.</p>
 <p><br> <img src="hogwarts.jpg" /><br />
 <br></p>
-</div>
 
 
 

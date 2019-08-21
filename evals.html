@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>evals.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -96,6 +94,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +111,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -218,9 +321,8 @@ $(document).ready(function () {
 
 
 <p><br></p>
-<div id="evaluations" class="section level3">
-<h3>Evaluations</h3>
-<p>This course has a very specific design to promote active learning. It is an upper-year offering, and the primary goal is to provide you with an opportunity to engage in critical thinking and get practical skills for professional careers including critical reading, analysis of technical work, big-picture thinking, and effective communication. The final goal is to introduce you to the gold-standard of big picture problem-solving in all disciplines - meta-analyses.</p>
+<p>###Evaluations<br />
+This course has a very specific design to promote active learning. It is an upper-year offering, and the primary goal is to provide you with an opportunity to engage in critical thinking and get practical skills for professional careers including critical reading, analysis of technical work, big-picture thinking, and effective communication. The final goal is to introduce you to the gold-standard of big picture problem-solving in all disciplines - meta-analyses.</p>
 <p><strong>Philosophy for evaluation &amp; design</strong><br />
 1. Respect the purpose of the course as designed by Dr. Yan and Dr Sharma and parallel the structure.<br />
 2. Testing and evaluation by you and by me should lead to improvement.<br />
@@ -234,31 +336,18 @@ $(document).ready(function () {
 10. Students should have access to all content for review including presentations and should be allowed to do team science to solve problems using this evidence.<br />
 11. Students should be able to provide feedback and evaluation back to the instructor.<br />
 12. The instructor should highlight opportunites for improvement.</p>
-</div>
-<div id="mechanisms-for-better-evals" class="section level3">
-<h3>Mechanisms for better evals</h3>
-<ol style="list-style-type: decimal">
-<li>Mid-term feedback opportunity for students.<br />
-</li>
-<li>Next test the same.<br />
-</li>
-<li>Explain marking key again.<br />
-</li>
-<li>Review <a href="https://cjlortie.github.io/bio4enviro_grades/">analyses of evaluations</a>.<br />
-</li>
-<li>I will carefully review student feedback.<br />
-</li>
-<li>Consider peer-marking a practice for each other.<br />
-</li>
-<li>Provide students with a chance to communicate clarifications to first test - i.e. in responding to marking, I do better marking next time and students do better writing.</li>
-</ol>
-</div>
-<div id="limitations" class="section level3">
-<h3>Limitations</h3>
-<p>Anomalous grades when too high are problematic.<br />
+<p>###Mechanisms for better evals<br />
+1. Mid-term feedback opportunity for students.<br />
+2. Next test the same.<br />
+3. Explain marking key again.<br />
+4. Review analyses of evaluations.<br />
+5. I will carefully review student feedback.<br />
+6. Consider peer-marking a practice for each other.<br />
+7. Provide students with a chance to communicate clarifications to first test - i.e. in responding to marking, I do better marking next time and students do better writing.</p>
+<p>###Limitations<br />
+Anomalous grades when too high are problematic.<br />
 Too much practice makes challenges less interesting.<br />
 Unduly detailed marking keys make writing less clear.</p>
-</div>
 
 
 
