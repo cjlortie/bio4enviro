@@ -7,8 +7,11 @@ output: html_document
 ### Biology for Environmental Management    
 **bio4enviro**  
 *finding the magic spells in science for the environment*  
+<br>
+![](./hogwarts.jpg)  
 
-Please tweet all discoveries because to **@cjlortie #bio4enviro** so that we can explore if the ideas we tackle in this course resonate with other environmental scientists.    
+
+Please tweet all discoveries to **@cjlortie #bio4enviro** so that we can explore if the ideas we tackle in this course resonate with other environmental scientists.    
 
 **Outline**    
 [Course outline pdf](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265-2019.pdf)  
@@ -54,9 +57,7 @@ Key: bio4enviro
 Please see course pdf outline for full details.  
 The [Document Submission System](https://science.apps01.yorku.ca/machform/view.php?id=84113) must be used to submit all documentation associated with absences.
 
-<br>
-![](./hogwarts.jpg)  
-<br>
+
 
 
 
