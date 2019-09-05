@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>tests.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -96,6 +94,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +111,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -218,10 +321,9 @@ $(document).ready(function () {
 
 
 <p><br></p>
-<div id="tests" class="section level3">
-<h3>Tests</h3>
+<p>###Tests</p>
 <p>The emc2 &amp; res practice form is the exact same as both tests. It is the goal of this course to give you the opportunity to practice and then be tested on a novel, similar problem. Simply reuse the form provide but APPLY to the test papers that will be posted here.</p>
-<p><strong>Test form (same as practice form but complete Q3 in full)</strong></p>
+<p><strong>Test #1 form (same as practice form but complete Q3 in full)</strong></p>
 <p><a href="https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265_emc2.docx">test form as word doc</a></p>
 <p><a href="https://github.com/cjlortie/bio4enviro/blob/master/emc2.pdf">test form as PDF</a></p>
 <p><strong>Test 1 publication:</strong> <a href="http://www.nrcresearchpress.com/doi/10.1139/cjfas-2016-0520#.W6U4zS-ZMWp">Direct and interactive effects of climate, meteorology, river hydrology, and lake characteristics on water quality in productive lakes of the Canadian Prairies</a></p>
@@ -229,9 +331,10 @@ $(document).ready(function () {
 <p><br></p>
 <p><strong>Test 2 publication:</strong> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/oik.04688">Modelling the niche space of desert annuals needs to include positive interactions</a></p>
 <p><strong>Hint for primary tool:</strong> <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/120103">big data - i.e. Big data and the future of ecology</a></p>
+<p>ONLY do Question #3 for test 2 for 20%. The other 20% for test 2 is the video or radio commerical. See marking key below.</p>
 <p><br></p>
 <p><strong>Note the marking key for citations:</strong> if you use the above suggested rers tool for each test, and you are welcome to, you still need to find one more rers tool paper for that topic - i.e., for ‘models’ on first test and for ‘big data’ on second test.</p>
-<p><strong>Marking key</strong></p>
+<p><strong>Marking key for test #1</strong></p>
 <table>
 <thead>
 <tr class="header">
@@ -310,9 +413,63 @@ $(document).ready(function () {
 </tr>
 </tbody>
 </table>
+<p><strong>Marking key for test #2</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">item</th>
+<th align="left">concept</th>
+<th align="left">description</th>
+<th align="right">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="left">Q3a solutions</td>
+<td align="left">list at least 3 big picture reproducible solutions or tools and explain how each can be applied to this challenge</td>
+<td align="right">6</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="left">Q3b top solution</td>
+<td align="left">explain the top solution or tool to challenge based on your research i.e. at least one other paper</td>
+<td align="right">10</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="left">Q3c citations</td>
+<td align="left">cite at least 2 recent relevant papers - 1-2 solution or tool paper(s) and 1 similar challenge paper in addition to the papers provided</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="left">Commerical - compelling</td>
+<td align="left">does it pop and did you catch the listener or viewer</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="left">Scientific underpinnings</td>
+<td align="left">did you accurately explain and link to the science</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="left">Clarity of delivery</td>
+<td align="left">is the message evident and clearly explained</td>
+<td align="right">5</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="left">total</td>
+<td align="left">sum of above</td>
+<td align="right">40</td>
+</tr>
+</tbody>
+</table>
 <p><br> <img src="quidditch.png" /><br />
 <br></p>
-</div>
 
 
 
