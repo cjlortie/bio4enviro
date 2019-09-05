@@ -4,15 +4,15 @@ output: html_document
 ---
 <br>
 
-###Tests  
+### Tests  
 
 The emc2 & res practice form is the exact same as both tests.  It is the goal of this course to give you the opportunity to practice and then be tested on a novel, similar problem.  Simply reuse the form provide but APPLY to the test papers that will be posted here.
 
 **Test #1 form (same as practice form but complete Q3 in full)**  
 
-[test form as word doc](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265_emc2.docx)  
+[test form #1 as word doc](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265_emc2.docx)  
 
-[test form as PDF](https://github.com/cjlortie/bio4enviro/blob/master/emc2.pdf)  
+[test form #1 as PDF](https://github.com/cjlortie/bio4enviro/blob/master/emc2.pdf)  
 
 **Test 1 publication:** [Direct and interactive effects of climate, meteorology, river hydrology, and lake characteristics on water quality in productive lakes of the Canadian Prairies](http://www.nrcresearchpress.com/doi/10.1139/cjfas-2016-0520#.W6U4zS-ZMWp)  
 
@@ -24,14 +24,15 @@ The emc2 & res practice form is the exact same as both tests.  It is the goal of
 
 **Hint for primary tool:** [big data - i.e. Big data and the future of ecology](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/120103) 
 
-ONLY do Question #3 for test 2 for 20%.
+ONLY do Question #3 for test 2 for 20% and prepare a short 1-2 minute commercial for your solution set.  
 The other 20% for test 2 is the video or radio commerical.  See marking key below.
+
+[Test 2 form as word doc](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265_test_form_2.docx)  
+
+[Test 2 form as pdf](https://github.com/cjlortie/bio4enviro/blob/master/BIOL4265_test_form_2.pdf)  
 
 
 <br>  
-
-**Note the marking key for citations:** if you use the above suggested rers tool for each test, and you are welcome to, you still need to find one more rers tool paper for that topic - i.e., for 'models' on first test and for 'big data' on second test.  
-
 
 **Marking key for test #1**  
 ```{r, warning=FALSE, message=FALSE, echo=FALSE}
