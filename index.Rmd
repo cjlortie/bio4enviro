@@ -19,40 +19,15 @@ Please tweet all discoveries to **@cjlortie #bio4enviro** so that we can explore
 **General overview**  
 The first two sets of 3 weeks will examine environmental management challenge cases **emc2** first class via flipped lecture and reverse-engineered reproducible solutions & tools **rers** second lecture.  
 
-Sept 5 intro to class  
-Sept 10 & 12 pollinator declines & citizen science  
-Sept 17 & 19 climate change & open science code  
-Sept 24 & 26 invasive species & team science  
-Oct 1 & 3 two-part test  
-Oct 8 & 10 land use challenges & systematic reviews  
-Oct 15 & 17 reading week  
-Oct 22 & 24 coastal habitat functioning & meta-analyses  
-Oct 29 & 31 ocean health & mapping  
-Nov 5 & 7 two-part test  
-Nov 12 & 14 meta-analysis & how to do meta-analyses  
-Nov 19 & 21 meta-analyses & how to design a good science poster  
-Nov 26 & 28 public poster conference  
-Dec 3 Closing discussion on science versus policy, politics, and social media  
-
-
 **Evaluation**  
 Test 1. 40%  
 Test 2. 40%  
 Poster. 20%  
 
-Tests and poster must be submitted to turnitin.com.  
+Tests and poster must be submitted to [turnitin.com](https://www.turnitin.com).  
 Please export all to PDF for submission.  
 Class ID: 22011142  
 Key: bio4enviro  
-
-
-**Learning outcomes**  
-1.	Critically read environmental science peer-reviewed journal publications.  
-2.	Reverse-engineer the critical reproducible science tools from most natural science peer-reviewed journal publications.
-3.	Appreciate the extent and scope of environmental challenges we face globally.  
-4.	Explain the balance between direct human needs and environmental health.  
-5.	Do a meta-analysis and systematic review.  
-6.	Effectively communicate scientific synthesis findings for environmental management.  
 
 Please see course pdf outline for full details.  
 The [Document Submission System](https://science.apps01.yorku.ca/machform/view.php?id=84113) must be used to submit all documentation associated with absences.
