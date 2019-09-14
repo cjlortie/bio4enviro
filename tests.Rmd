@@ -6,7 +6,11 @@ output: html_document
 
 ### Tests  
 
-The emc2 & res practice form is the exact same as both tests.  It is the goal of this course to give you the opportunity to practice and then be tested on a novel, similar problem.  Simply reuse the form provide but APPLY to the test papers that will be posted here.
+The emc2 & res practice form is the exact same as both tests.  It is the goal of this course to give you the opportunity to practice and then be tested on a novel, similar problem.  Simply reuse the form provide but APPLY to the test papers that will be posted here.  
+
+Two-part test means two-part process.  
+Part 1, work in class collaboratively.  
+Part 2, complete at home, digitally typing up work in your own words, and submit to [turnitin.com](https://www.turnitin.com).    
 
 **Test #1 form (same as practice form but complete Q3 in full)**  
 
