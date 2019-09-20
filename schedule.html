@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -244,18 +244,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -380,7 +368,7 @@ $(document).ready(function () {
 <td align="right">6</td>
 <td align="left">Oct 8 &amp; 10</td>
 <td align="left"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005845">scientific communication</a></td>
-<td align="left">NA</td>
+<td align="left"><a href="https://www.slideshare.net/MaloryOwen/scicomm">deck</a></td>
 <td align="left"><a href="https://www.semanticscholar.org/paper/Curated-Collections-for-Educators%3A-Five-Key-Papers-Quinn-Chan/1df428d8b0900185fbcd25005cfd8ba284436671">Digital scholarship</a></td>
 <td align="left"><a href="https://www.slideshare.net/cjlortie/trends-in-data-digital-scholarship-services">deck</a></td>
 </tr>
@@ -464,6 +452,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
