@@ -4,12 +4,15 @@ output: html_document
 ---
 <br>
 
-###Poster  
-The final third of the course is an opportunity to explore, in depth, an environmental management challenge of their choice, do a meta-analysis, and present in a poster session (learning outcomes 5 & 6).  Meta-analyses are the gold-standard evidence-based decision making tool in most disciplines of science including health, clinical research, environmental science, and ecology and evolution. This is a group endeavour for sets of students with similiar interests to apply the emc2 and rers thinking to a topic of their choice, develop and present and analysis, and share with the class.  
+### Poster  
+The final third of the course is an opportunity to explore, in depth, an environmental management challenge of their choice, do a meta-analysis, and present in a poster session (learning outcomes 5 & 6).  Meta-analyses and data aggregation across studies are the gold-standard evidence-based decision making tool in most disciplines of science including health, clinical research, environmental science, and ecology and evolution. This is a group endeavour for sets of students with similiar interests to apply the emc2 and rers thinking to a topic of their choice, develop and present and analysis, and share with the class.  
 
-Nov 26th - poster session for students in class only. Poster 'due' this day - HOWEVER Malory and I will delay judging until the Weds Nov 28th.  The Nov 26th poster session will be for you to review and offer feedback to other group posters. You are absolutely welcome to revise from that advice but must provide, in person, the final poster for judging on Nov 28th.  
+First class in final week - poster session for students in class only. Poster DRAFT 'due' this day - HOWEVER delay judging until the final class that week.  The DRAFT poster session will be for you to review and offer feedback to other group posters - peer-to-peer. You are absolutely welcome to revise from that advice but must provide, in person, the final poster for judging in the last class (Nov 28th).  
 
-SUMMARY - this is a chance to get feedback, revise, and get an **automatic extension** from Nov 26 to the 28th if you would like to take advantage of it.  It also provides an opportunity to practice poster presentations and answering questions before you get graded.  
+Please list all group members on poster, print to PDF, and also have one group member please submit to [turnitin.com](https://www.turnitin.com).    
+
+SUMMARY - this is a chance to get feedback, revise, and get an **automatic extension** to the final class on Nov 28th at 11:59pm  if you would like to take advantage of it.  It also provides an opportunity to practice poster presentations and answering questions before you get graded with colleagues.  
+
 
 **Marking key/rebric total to 20**  
 Clarity of visuals/5    
@@ -18,7 +21,7 @@ Effective scientific synthesis/5
 Conclusions & implications sufficiently developed/5  
 
 **Guidelines**  
-We will develop clear guidelines together prior to and during final module.
+I recommend full sentences for Intro and Methods. However, you are welcome to explore tables and other short formats such as bullets to communicate other findings.  Each poster should also have an organizing statement (purpose or hypothesis or key question you are examining).  Use the ten simple rules for posters we discussed in class.  There must also be at least one data plot on the poster showing what did you compiled to do you meta-work.  
 
-Please include a contribution table on poster using initials of each person listing the work each individual completed as part of the synthesis.  
+Please include a contribution table on poster using initials of each person listing the work each individual completed as part of the synthesis.  Also, list all authors after title at top of poster.  
 

@@ -7,11 +7,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>poster.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -95,6 +93,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -110,7 +111,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -220,17 +311,18 @@ $(document).ready(function () {
 <p><br></p>
 <div id="poster" class="section level3">
 <h3>Poster</h3>
-<p>The final third of the course is an opportunity to explore, in depth, an environmental management challenge of their choice, do a meta-analysis, and present in a poster session (learning outcomes 5 &amp; 6). Meta-analyses are the gold-standard evidence-based decision making tool in most disciplines of science including health, clinical research, environmental science, and ecology and evolution. This is a group endeavour for sets of students with similiar interests to apply the emc2 and rers thinking to a topic of their choice, develop and present and analysis, and share with the class.</p>
-<p>Nov 26th - poster session for students in class only. Poster ‘due’ this day - HOWEVER Malory and I will delay judging until the Weds Nov 28th. The Nov 26th poster session will be for you to review and offer feedback to other group posters. You are absolutely welcome to revise from that advice but must provide, in person, the final poster for judging on Nov 28th.</p>
-<p>SUMMARY - this is a chance to get feedback, revise, and get an <strong>automatic extension</strong> from Nov 26 to the 28th if you would like to take advantage of it. It also provides an opportunity to practice poster presentations and answering questions before you get graded.</p>
+<p>The final third of the course is an opportunity to explore, in depth, an environmental management challenge of their choice, do a meta-analysis, and present in a poster session (learning outcomes 5 &amp; 6). Meta-analyses and data aggregation across studies are the gold-standard evidence-based decision making tool in most disciplines of science including health, clinical research, environmental science, and ecology and evolution. This is a group endeavour for sets of students with similiar interests to apply the emc2 and rers thinking to a topic of their choice, develop and present and analysis, and share with the class.</p>
+<p>First class in final week - poster session for students in class only. Poster DRAFT ‘due’ this day - HOWEVER delay judging until the final class that week. The DRAFT poster session will be for you to review and offer feedback to other group posters - peer-to-peer. You are absolutely welcome to revise from that advice but must provide, in person, the final poster for judging in the last class (Nov 28th).</p>
+<p>Please list all group members on poster, print to PDF, and also have one group member please submit to <a href="https://www.turnitin.com">turnitin.com</a>.</p>
+<p>SUMMARY - this is a chance to get feedback, revise, and get an <strong>automatic extension</strong> to the final class on Nov 28th at 11:59pm if you would like to take advantage of it. It also provides an opportunity to practice poster presentations and answering questions before you get graded with colleagues.</p>
 <p><strong>Marking key/rebric total to 20</strong><br />
 Clarity of visuals/5<br />
 Transparent science presented/5<br />
 Effective scientific synthesis/5<br />
 Conclusions &amp; implications sufficiently developed/5</p>
 <p><strong>Guidelines</strong><br />
-We will develop clear guidelines together prior to and during final module.</p>
-<p>Please include a contribution table on poster using initials of each person listing the work each individual completed as part of the synthesis.</p>
+I recommend full sentences for Intro and Methods. However, you are welcome to explore tables and other short formats such as bullets to communicate other findings. Each poster should also have an organizing statement (purpose or hypothesis or key question you are examining). Use the ten simple rules for posters we discussed in class. There must also be at least one data plot on the poster showing what did you compiled to do you meta-work.</p>
+<p>Please include a contribution table on poster using initials of each person listing the work each individual completed as part of the synthesis. Also, list all authors after title at top of poster.</p>
 </div>
 
 
@@ -250,6 +342,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
